@@ -182,7 +182,6 @@ public class Main {
 
         for (int i =0; i<= employees.length- 1;i++){
             if (employees[i].getDepartment() == dep){
-
                 department = department + 1;
                 System.out.println(employees[i]);
                 employees[i].setSalary(employees[i].getSalary() + employees[i].getSalary()* index);
@@ -209,8 +208,6 @@ public class Main {
                 System.out.println(employees[i]);
             }
         }
-
-
         System.out.println();
     }
 
