@@ -203,11 +203,8 @@ public class Main {
     }
     private static void salaryMax(){
         double salaryMax = 30000;
-
         System.out.println("Зарплата сотрудников больше или равнв " + salaryMax);
-
         for (int i =0; i<= employees.length- 1;i++){
-
             if (employees[i].getSalary() >= salaryMax ){
                 System.out.println(employees[i]);
             }
