@@ -164,7 +164,6 @@ public class Main {
         double sum = 0;
         for (int i =0; i<= employees.length- 1;i++){
             if (employees[i].getDepartment() == dep){
-
                 System.out.println(employees[i]);
                 department = department + 1;
                 sum =sum + employees[i].getSalary();
