@@ -194,7 +194,6 @@ public class Main {
     private static void salaryMin(){
         double salaryMin = 25000;
         System.out.println("Зарплата сотрудников меньше или равнв " + salaryMin);
-
         for (int i =0; i<= employees.length- 1;i++){
             if (employees[i].getSalary() <= salaryMin ){
 
