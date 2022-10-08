@@ -196,7 +196,6 @@ public class Main {
         System.out.println("Зарплата сотрудников меньше или равнв " + salaryMin);
         for (int i =0; i<= employees.length- 1;i++){
             if (employees[i].getSalary() <= salaryMin ){
-
                 System.out.println(employees[i]);
             }
         }

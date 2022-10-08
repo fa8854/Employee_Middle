@@ -11,7 +11,6 @@ public class Employee {
         this.id=getNumber();
         number++;
     }
-
     public String getFio(){
         return fio;
     }
